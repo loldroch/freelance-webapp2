@@ -1,0 +1,2779 @@
+        // Translation data
+        const translations = {
+            en: {
+                choose_language: "Choose Your Language",
+                home: "Home",
+                writing: "Writing",
+                translation: "Translation",
+                it: "IT & Tech",
+                design: "Design",
+                video: "Video", 
+                audio: "Audio",
+                marketing: "Marketing",
+                business: "Business",
+                education: "Education",
+                lifestyle: "Lifestyle",
+                chat: "Chat",
+                profile: "Profile",
+                hero_title: "Complete Freelance Marketplace",
+                hero_subtitle: "Your one-stop solution for all freelance services. From writing and design to IT and lifestyle - we connect you with top professionals worldwide.",
+                projects_completed: "Projects Completed",
+                support: "24/7 Support",
+                rating: "Average Rating", 
+                delivery: "Fast Delivery",
+                get_started: "Get Started",
+                contact_us: "Contact Us",
+                about_quality: "Premium Quality",
+                about_quality_desc: "We deliver only the highest quality work, with attention to every detail. Your success is our priority.",
+                about_speed: "Lightning Fast",
+                about_speed_desc: "Fast turnaround times without compromising quality. Most projects completed within 24-48 hours.",
+                about_trust: "100% Secure",
+                about_trust_desc: "Your data and projects are completely secure. We use encrypted communications and secure payment methods.",
+                about_global: "Global Talent Pool",
+                about_global_desc: "Access to thousands of verified professionals worldwide with expertise in every field imaginable.",
+                about_premium: "Premium Support", 
+                about_premium_desc: "Experience premium freelance services with dedicated project managers and 24/7 multilingual support.",
+                about_partnership: "Long-term Partnership",
+                about_partnership_desc: "We build lasting relationships with our clients, becoming your trusted digital partner for all projects.",
+                order_now: "Order Now",
+                online: "Online",
+                busy: "Busy",
+                select_freelancer: "Select a freelancer to start chatting",
+                welcome_message: "Welcome! Please select a freelancer to start your conversation.",
+                type_message: "Type your message...",
+                send: "Send",
+                profile_title: "My Profile",
+                client_status: "Premium Client",
+                total_orders: "Total Orders",
+                completed_orders: "Completed",
+                total_spent: "Total Spent",
+                edit_profile: "Edit Profile",
+                recent_orders: "Recent Orders",
+                status_active: "            <!-- Design Services -->
+            <section id="design" class="section">
+                <h1 class="section-title" data-translate="design_services">Design & Creative Services</h1>
+                <div class="services-grid">
+                    <div class="service-card" onclick="orderService('logo-design')">
+                        <span class="service-icon">🎨</span>
+                        <h3 class="service-title" data-translate="logo_design_title">Logo & Brand Identity</h3>
+                        <div class="service-price">$50-800 / project</div>
+                        <p class="service-description" data-translate="logo_design_desc">
+                            Professional logo design and complete brand identity packages
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="logo_feature_1">Multiple concepts</li>
+                            <li data-translate="logo_feature_2">Vector files included</li>
+                            <li data-translate="logo_feature_3">Brand guidelines</li>
+                            <li data-translate="logo_feature_4">Commercial rights</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('web-design')">
+                        <span class="service-icon">🖥️</span>
+                        <h3 class="service-title" data-translate="web_design_title">Web Design</h3>
+                        <div class="service-price">$200-5000 / project</div>
+                        <p class="service-description" data-translate="web_design_desc">
+                            Modern, responsive web design that converts visitors into customers
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="web_design_feature_1">Mobile responsive</li>
+                            <li data-translate="web_design_feature_2">User-friendly UI/UX</li>
+                            <li data-translate="web_design_feature_3">SEO optimized</li>
+                            <li data-translate="web_design_feature_4">Fast loading</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('graphic-design')">
+                        <span class="service-icon">🎭</span>
+                        <h3 class="service-title" data-translate="graphic_design_title">Graphic Design</h3>
+                        <div class="service-price">$25-300 / design</div>
+                        <p class="service-description" data-translate="graphic_design_desc">
+                            Eye-catching graphics for all your marketing and business needs
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="graphic_feature_1">Flyers & brochures</li>
+                            <li data-translate="graphic_feature_2">Business cards</li>
+                            <li data-translate="graphic_feature_3">Social media graphics</li>
+                            <li data-translate="graphic_feature_4">Print-ready files</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('ui-ux-design')">
+                        <span class="service-icon">📱</span>
+                        <h3 class="service-title" data-translate="ui_ux_design_title">UI/UX Design</h3>
+                        <div class="service-price">$300-3000 / project</div>
+                        <p class="service-description" data-translate="ui_ux_design_desc">
+                            User-centered design for web and mobile applications
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="ui_ux_feature_1">User research</li>
+                            <li data-translate="ui_ux_feature_2">Wireframing</li>
+                            <li data-translate="ui_ux_feature_3">Prototyping</li>
+                            <li data-translate="ui_ux_feature_4">Usability testing</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('illustration')">
+                        <span class="service-icon">🖌️</span>
+                        <h3 class="service-title" data-translate="illustration_title">Illustration & Art</h3>
+                        <div class="service-price">$50-500 / illustration</div>
+                        <p class="service-description" data-translate="illustration_desc">
+                            Custom illustrations, digital art, and creative visuals
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="illustration_feature_1">Digital illustrations</li>
+                            <li data-translate="illustration_feature_2">Character design</li>
+                            <li data-translate="illustration_feature_3">Book illustrations</li>
+                            <li data-translate="illustration_feature_4">Custom artwork</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('3d-design')">
+                        <span class="service-icon">🎲</span>
+                        <h3 class="service-title" data-translate="3d_design_title">3D Design & Modeling</h3>
+                        <div class="service-price">$100-1000 / model</div>
+                        <p class="service-description" data-translate="3d_design_desc">
+                            Professional 3D modeling, rendering, and architectural visualization
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="3d_feature_1">Product modeling</li>
+                            <li data-translate="3d_feature_2">Architectural renders</li>
+                            <li data-translate="3d_feature_3">Character modeling</li>
+                            <li data-translate="3d_feature_4">Photorealistic renders</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('packaging-design')">
+                        <span class="service-icon">📦</span>
+                        <h3 class="service-title" data-translate="packaging_design_title">Packaging Design</h3>
+                        <div class="service-price">$100-800 / design</div>
+                        <p class="service-description" data-translate="packaging_design_desc">
+                            Eye-catching packaging design that makes your product stand out
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="packaging_feature_1">Product packaging</li>
+                            <li data-translate="packaging_feature_2">Label design</li>
+                            <li data-translate="packaging_feature_3">Print specifications</li>
+                            <li data-translate="packaging_feature_4">3D mockups</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('fashion-design')">
+                        <span class="service-icon">👗</span>
+                        <h3 class="service-title" data-translate="fashion_design_title">Fashion Design</h3>
+                        <div class="service-price">$200-2000 / collection</div>
+                        <p class="service-description" data-translate="fashion_design_desc">
+                            Fashion design, pattern making, and technical drawings
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="fashion_feature_1">Fashion illustrations</li>
+                            <li data-translate="fashion_feature_2">Technical drawings</li>
+                            <li data-translate="fashion_feature_3">Pattern making</li>
+                            <li data-translate="fashion_feature_4">Collection development</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Marketing Services -->
+            <section id="marketing" class="section">
+                <h1 class="section-title" data-translate="marketing_services">Digital Marketing Services</h1>
+                <div class="services-grid">
+                    <div class="service-card" onclick="orderService('social-media-marketing')">
+                        <span class="service-icon">📱</span>
+                        <h3 class="service-title" data-translate="smm_title">Social Media Marketing</h3>
+                        <div class="service-price">$200-2000 / month</div>
+                        <p class="service-description" data-translate="smm_desc">
+                            Complete social media management and marketing campaigns
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="smm_feature_1">Content creation</li>
+                            <li data-translate="smm_feature_2">Community management</li>
+                            <li data-translate="smm_feature_3">Paid advertising</li>
+                            <li data-translate="smm_feature_4">Analytics & reporting</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('seo-services')">
+                        <span class="service-icon">🔍</span>
+                        <h3 class="service-title" data-translate="seo_title">SEO & Search Marketing</h3>
+                        <div class="service-price">$300-1500 / month</div>
+                        <p class="service-description" data-translate="seo_desc">
+                            Increase your website's visibility and organic traffic
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="seo_feature_1">Keyword research</li>
+                            <li data-translate="seo_feature_2">On-page optimization</li>
+                            <li data-translate="seo_feature_3">Link building</li>
+                            <li data-translate="seo_feature_4">Technical SEO</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('ppc-advertising')">
+                        <span class="service-icon">💰</span>
+                        <h3 class="service-title" data-translate="ppc_title">PPC & Paid Advertising</h3>
+                        <div class="service-price">$500-5000 / campaign</div>
+                        <p class="service-description" data-translate="ppc_desc">
+                            Google Ads, Facebook Ads, and other paid advertising campaigns
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="ppc_feature_1">Campaign setup</li>
+                            <li data-translate="ppc_feature_2">Ad copy creation</li>
+                            <li data-translate="ppc_feature_3">Bid optimization</li>
+                            <li data-translate="ppc_feature_4">ROI tracking</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('email-marketing')">
+                        <span class="service-icon">📧</span>
+                        <h3 class="service-title" data-translate="email_marketing_title">Email Marketing</h3>
+                        <div class="service-price">$150-800 / campaign</div>
+                        <p class="service-description" data-translate="email_marketing_desc">
+                            Email campaigns that drive engagement and conversions
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="email_feature_1">Email design</li>
+                            <li data-translate="email_feature_2">List management</li>
+                            <li data-translate="email_feature_3">Automation setup</li>
+                            <li data-translate="email_feature_4">Performance tracking</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('influencer-marketing')">
+                        <span class="service-icon">⭐</span>
+                        <h3 class="service-title" data-translate="influencer_marketing_title">Influencer Marketing</h3>
+                        <div class="service-price">$1000-10000 / campaign</div>
+                        <p class="service-description" data-translate="influencer_marketing_desc">
+                            Connect with influencers to expand your brand reach
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="influencer_feature_1">Influencer research</li>
+                            <li data-translate="influencer_feature_2">Campaign management</li>
+                            <li data-translate="influencer_feature_3">Content collaboration</li>
+                            <li data-translate="influencer_feature_4">ROI measurement</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('content-marketing')">
+                        <span class="service-icon">📝</span>
+                        <h3 class="service-title" data-translate="content_marketing_title">Content Marketing</h3>
+                        <div class="service-price">$400-2500 / month</div>
+                        <p class="service-description" data-translate="content_marketing_desc">
+                            Strategic content creation and distribution to attract customers
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="content_marketing_feature_1">Content strategy</li>
+                            <li data-translate="content_marketing_feature_2">Blog management</li>
+                            <li data-translate="content_marketing_feature_3">Video content</li>
+                            <li data-translate="content_marketing_feature_4">Distribution channels</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('market-research')">
+                        <span class="service-icon">📊</span>
+                        <h3 class="service-title" data-translate="market_research_title">Market Research</h3>
+                        <div class="service-price">$300-1500 / report</div>
+                        <p class="service-description" data-translate="market_research_desc">
+                            In-depth market analysis to inform your business decisions
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="market_research_feature_1">Competitor analysis</li>
+                            <li data-translate="market_research_feature_2">Target audience research</li>
+                            <li data-translate="market_research_feature_3">Industry trends</li>
+                            <li data-translate="market_research_feature_4">Market sizing</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('pr-services')">
+                        <span class="service-icon">📢</span>
+                        <h3 class="service-title" data-translate="pr_title">Public Relations</h3>
+                        <div class="service-price">$500-3000 / month</div>
+                        <p class="service-description" data-translate="pr_desc">
+                            Build brand reputation and manage public communications
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="pr_feature_1">Press releases</li>
+                            <li data-translate="pr_feature_2">Media outreach</li>
+                            <li data-translate="pr_feature_3">Crisis management</li>
+                            <li data-translate="pr_feature_4">Brand messaging</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Business Services -->
+            <section id="business" class="section">
+                <h1 class="section-title" data-translate="business_services">Business Services</h1>
+                <div class="services-grid">
+                    <div class="service-card" onclick="orderService('business-plan')">
+                        <span class="service-icon">📋</span>
+                        <h3 class="service-title" data-translate="business_plan_title">Business Plan Writing</h3>
+                        <div class="service-price">$500-2500 / plan</div>
+                        <p class="service-description" data-translate="business_plan_desc">
+                            Professional business plans for startups and established businesses
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="business_plan_feature_1">Market analysis</li>
+                            <li data-translate="business_plan_feature_2">Financial projections</li>
+                            <li data-translate="business_plan_feature_3">Strategy development</li>
+                            <li data-translate="business_plan_feature_4">Investor-ready format</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('financial-consulting')">
+                        <span class="service-icon">💼</span>
+                        <h3 class="service-title" data-translate="financial_consulting_title">Financial Consulting</h3>
+                        <div class="service-price">$100-300 / hour</div>
+                        <p class="service-description" data-translate="financial_consulting_desc">
+                            Expert financial advice and planning services
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="financial_feature_1">Budget planning</li>
+                            <li data-translate="financial_feature_2">Investment advice</li>
+                            <li data-translate="financial_feature_3">Tax planning</li>
+                            <li data-translate="financial_feature_4">Risk assessment</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('legal-services')">
+                        <span class="service-icon">⚖️</span>
+                        <h3 class="service-title" data-translate="legal_services_title">Legal Services</h3>
+                        <div class="service-price">$150-500 / hour</div>
+                        <p class="service-description" data-translate="legal_services_desc">
+                            Legal consultation and document preparation services
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="legal_feature_1">Contract drafting</li>
+                            <li data-translate="legal_feature_2">Legal consultation</li>
+                            <li data-translate="legal_feature_3">Document review</li>
+                            <li data-translate="legal_feature_4">Compliance advice</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('project-management')">
+                        <span class="service-icon">🎯</span>
+                        <h3 class="service-title" data-translate="project_management_title">Project Management</h3>
+                        <div class="service-price">$50-150 / hour</div>
+                        <p class="service-description" data-translate="project_management_desc">
+                            Professional project management for successful delivery
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="pm_feature_1">Project planning</li>
+                            <li data-translate="pm_feature_2">Team coordination</li>
+                            <li data-translate="pm_feature_3">Progress tracking</li>
+                            <li data-translate="pm_feature_4">Risk management</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('hr-services')">
+                        <span class="service-icon">👥</span>
+                        <h3 class="service-title" data-translate="hr_services_title">HR Services</h3>
+                        <div class="service-price">$75-200 / hour</div>
+                        <p class="service-description" data-translate="hr_services_desc">
+                            Human resources consulting and management services
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="hr_feature_1">Recruitment</li>
+                            <li data-translate="hr_feature_2">Policy development</li>
+                            <li data-translate="hr_feature_3">Training programs</li>
+                            <li data-translate="hr_feature_4">Performance management</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('bookkeeping')">
+                        <span class="service-icon">📚</span>
+                        <h3 class="service-title" data-translate="bookkeeping_title">Bookkeeping & Accounting</h3>
+                        <div class="service-price">$25-100 / hour</div>
+                        <p class="service-description" data-translate="bookkeeping_desc">
+                            Professional bookkeeping and accounting services
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="bookkeeping_feature_1">Monthly bookkeeping</li>
+                            <li data-translate="bookkeeping_feature_2">Tax preparation</li>
+                            <li data-translate="bookkeeping_feature_3">Financial reports</li>
+                            <li data-translate="bookkeeping_feature_4">Expense tracking</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('sales-consulting')">
+                        <span class="service-icon">💸</span>
+                        <h3 class="service-title" data-translate="sales_consulting_title">Sales Consulting</h3>
+                        <div class="service-price">$100-250 / hour</div>
+                        <p class="service-description" data-translate="sales_consulting_desc">
+                            Sales strategy and process optimization services
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="sales_feature_1">Sales strategy</li>
+                            <li data-translate="sales_feature_2">Lead generation</li>
+                            <li data-translate="sales_feature_3">CRM setup</li>
+                            <li data-translate="sales_feature_4">Sales training</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('operations-consulting')">
+                        <span class="service-icon">⚙️</span>
+                        <h3 class="service-title" data-translate="operations_consulting_title">Operations Consulting</h3>
+                        <div class="service-price">$120-300 / hour</div>
+                        <p class="service-description" data-translate="operations_consulting_desc">
+                            Optimize business operations for efficiency and growth
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="ops_feature_1">Process optimization</li>
+                            <li data-translate="ops_feature_2">Workflow automation</li>
+                            <li data-translate="ops_feature_3">Quality management</li>
+                            <li data-translate="ops_feature_4">Supply chain optimization</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Education Services -->
+            <section id="education" class="section">
+                <h1 class="section-title" data-translate="education_services">Education & Training Services</h1>
+                <div class="services-grid">
+                    <div class="service-card" onclick="orderService('online-tutoring')">
+                        <span class="service-icon">🎓</span>
+                        <h3 class="service-title" data-translate="tutoring_title">Online Tutoring</h3>
+                        <div class="service-price">$15-100 / hour</div>
+                        <p class="service-description" data-translate="tutoring_desc">
+                            One-on-one tutoring in various subjects and skill levels
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="tutoring_feature_1">All subjects covered</li>
+                            <li data-translate="tutoring_feature_2">Flexible scheduling</li>
+                            <li data-translate="tutoring_feature_3">Personalized learning</li>
+                            <li data-translate="tutoring_feature_4">Progress tracking</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('course-creation')">
+                        <span class="service-icon">📖</span>
+                        <h3 class="service-title" data-translate="course_creation_title">Course Creation</h3>
+                        <div class="service-price">$500-5000 / course</div>
+                        <p class="service-description" data-translate="course_creation_desc">
+                            Complete online course development and content creation
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="course_feature_1">Curriculum design</li>
+                            <li data-translate="course_feature_2">Video production</li>
+                            <li data-translate="course_feature_3">Interactive content</li>
+                            <li data-translate="course_feature_4">Assessment creation</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('academic-writing')">
+                        <span class="service-icon">📝</span>
+                        <h3 class="service-title" data-translate="academic_writing_title">Academic Writing</h3>
+                        <div class="service-price">$20-150 / page</div>
+                        <p class="service-description" data-translate="academic_writing_desc">
+                            Research papers, essays, and academic content writing
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="academic_feature_1">Research papers</li>
+                            <li data-translate="academic_feature_2">Essays & dissertations</li>
+                            <li data-translate="academic_feature_3">Citations & references</li>
+                            <li data-translate="academic_feature_4">Plagiarism-free</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('training-materials')">
+                        <span class="service-icon">📋</span>
+                        <h3 class="service-title" data-translate="training_materials_title">Training Materials</h3>
+                        <div class="service-price">$200-1000 / module</div>
+                        <p class="service-description" data-translate="training_materials_desc">
+                            Professional training materials and employee handbooks
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="training_feature_1">Employee manuals</li>
+                            <li data-translate="training_feature_2">Training presentations</li>
+                            <li data-translate="training_feature_3">Interactive modules</li>
+                            <li data-translate="training_feature_4">Assessment tools</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('language-teaching')">
+                        <span class="service-icon">🌍</span>
+                        <h3 class="service-title" data-translate="language_teaching_title">Language Teaching</h3>
+                        <div class="service-price">$20-80 / hour</div>
+                        <p class="service-description" data-translate="language_teaching_desc">
+                            Professional language instruction and conversation practice
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="language_feature_1">Multiple languages</li>
+                            <li data-translate="language_feature_2">All skill levels</li>
+                            <li data-translate="language_feature_3">Conversation practice</li>
+                            <li data-translate="language_feature_4">Cultural context</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('exam-prep')">
+                        <span class="service-icon">📊</span>
+                        <h3 class="service-title" data-translate="exam_prep_title">Exam Preparation</h3>
+                        <div class="service-price">$30-120 / hour</div>
+                        <p class="service-description" data-translate="exam_prep_desc">
+                            Specialized preparation for standardized tests and certifications
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="exam_feature_1">SAT/ACT/GRE prep</li>
+                            <li data-translate="exam_feature_2">Professional certifications</li>
+                            <li data-translate="exam_feature_3">Practice tests</li>
+                            <li data-translate="exam_feature_4">Study strategies</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('educational-consulting')">
+                        <span class="service-icon">🎯</span>
+                        <h3 class="service-title" data-translate="educational_consulting_title">Educational Consulting</h3>
+                        <div class="service-price">$100-250 / hour</div>
+                        <p class="service-description" data-translate="educational_consulting_desc">
+                            Expert advice on educational programs and career planning
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="edu_consulting_feature_1">College admissions</li>
+                            <li data-translate="edu_consulting_feature_2">Career guidance</li>
+                            <li data-translate="edu_consulting_feature_3">Program selection</li>
+                            <li data-translate="edu_consulting_feature_4">Academic planning</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('skill-development')">
+                        <span class="service-icon">🚀</span>
+                        <h3 class="service-title" data-translate="skill_development_title">Professional Skill Development</h3>
+                        <div class="service-price">$50-200 / session</div>
+                        <p class="service-description" data-translate="skill_development_desc">
+                            Personal and professional skill enhancement coaching
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="skill_feature_1">Leadership training</li>
+                            <li data-translate="skill_feature_2">Communication skills</li>
+                            <li data-translate="skill_feature_3">Technical skills</li>
+                            <li data-translate="skill_feature_4">Soft skills development</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Lifestyle Services -->
+            <section id="lifestyle" class="section">
+                <h1 class="section-title" data-translate="lifestyle_services">Lifestyle & Personal Services</h1>
+                <div class="services-grid">
+                    <div class="service-card" onclick="orderService('fitness-coaching')">
+                        <span class="service-icon">💪</span>
+                        <h3 class="service-title" data-translate="fitness_coaching_title">Personal Fitness Coaching</h3>
+                        <div class="service-price">$30-150 / session</div>
+                        <p class="service-description" data-translate="fitness_coaching_desc">
+                            Personalized fitness training and wellness coaching
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="fitness_feature_1">Custom workout plans</li>
+                            <li data-translate="fitness_feature_2">Nutrition guidance</li>
+                            <li data-translate="fitness_feature_3">Progress tracking</li>
+                            <li data-translate="fitness_feature_4">Online/offline sessions</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('nutrition-consulting')">
+                        <span class="service-icon">🥗</span>
+                        <h3 class="service-title" data-translate="nutrition_consulting_title">Nutrition Consulting</h3>
+                        <div class="service-price">$50-200 / consultation</div>
+                        <p class="service-description" data-translate="nutrition_consulting_desc">
+                            Professional nutrition advice and meal planning services
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="nutrition_feature_1">Personalized meal plans</li>
+                            <li data-translate="nutrition_feature_2">Dietary assessments</li>
+                            <li data-translate="nutrition_feature_3">Weight management</li>
+                            <li data-translate="nutrition_feature_4">Special diet planning</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('life-coaching')">
+                        <span class="service-icon">🌟</span>
+                        <h3 class="service-title" data-translate="life_coaching_title">Life Coaching</h3>
+                        <div class="service-price">$75-300 / session</div>
+                        <p class="service-description" data-translate="life_coaching_desc">
+                            Personal development and life transformation coaching
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="life_feature_1">Goal setting</li>
+                            <li data-translate="life_feature_2">Personal growth</li>
+                            <li data-translate="life_feature_3">Mindset coaching</li>
+                            <li data-translate="life_feature_4">Action planning</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('relationship-coaching')">
+                        <span class="service-icon">💕</span>
+                        <h3 class="service-title" data-translate="relationship_coaching_title">Relationship Coaching</h3>
+                        <div class="service-price">$100-250 / session</div>
+                        <p class="service-description" data-translate="relationship_coaching_desc">
+                            Professional guidance for better relationships and communication
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="relationship_feature_1">Communication skills</li>
+                            <li data-translate="relationship_feature_2">Conflict resolution</li>
+                            <li data-translate="relationship_feature_3">Couples counseling</li>
+                            <li data-translate="relationship_feature_4">Dating advice</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('meditation-mindfulness')">
+                        <span class="service-icon">🧘</span>
+                        <h3 class="service-title" data-translate="meditation_title">Meditation & Mindfulness</h3>
+                        <div class="service-price">$25-100 / session</div>
+                        <p class="service-description" data-translate="meditation_desc">
+                            Guided meditation and mindfulness practice sessions
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="meditation_feature_1">Stress reduction</li>
+                            <li data-translate="meditation_feature_2">Mindfulness training</li>
+                            <li data-translate="meditation_feature_3">Breathing techniques</li>
+                            <li data-translate="meditation_feature_4">Mental wellness</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('travel-planning')">
+                        <span class="service-icon">✈️</span>
+                        <h3 class="service-title" data-translate="travel_planning_title">Travel Planning</h3>
+                        <div class="service-price">$100-500 / itinerary</div>
+                        <p class="service-description" data-translate="travel_planning_desc">
+                            Custom travel planning and itinerary creation services
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="travel_feature_1">Itinerary planning</li>
+                            <li data-translate="travel_feature_2">Booking assistance</li>
+                            <li data-translate="travel_feature_3">Local recommendations</li>
+                            <li data-translate="travel_feature_4">Budget optimization</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('event-planning')">
+                        <span class="service-icon">🎉</span>
+                        <h3 class="service-title" data-translate="event_planning_title">Event Planning</h3>
+                        <div class="service-price">$500-5000 / event</div>
+                        <p class="service-description" data-translate="event_planning_desc">
+                            Complete event planning and coordination services
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="event_feature_1">Venue selection</li>
+                            <li data-translate="event_feature_2">Vendor coordination</li>
+                            <li data-translate="event_feature_3">Budget management</li>
+                            <li data-translate="event_feature_4">Day-of coordination</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('personal-shopping')">
+                        <span class="service-icon">🛍️</span>
+                        <h3 class="service-title" data-translate="personal_shopping_title">Personal Shopping</h3>
+                        <div class="service-price">$50-200 / session</div>
+                        <p class="service-description" data-translate="personal_shopping_desc">
+                            Professional styling and personal shopping services
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="shopping_feature_1">Style consultation</li>
+                            <li data-translate="shopping_feature_2">Wardrobe planning</li>
+                            <li data-translate="shopping_feature_3">Shopping assistance</li>
+                            <li data-translate="shopping_feature_4">Budget-friendly options</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                </div>
+            </section><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyotogawa Freelance</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #000000;
+            color: #ffffff;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+        
+        .app-container {
+            min-height: 100vh;
+            background: linear-gradient(180deg, #000000 0%, #1a1a1a 50%, #000000 100%);
+        }
+        
+        /* Language Selection Modal */
+        .language-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        
+        .language-modal.hidden {
+            display: none;
+        }
+        
+        .language-selector {
+            background: linear-gradient(145deg, #1a1a1a, #2a2a2a);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+        
+        .language-title {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 32px;
+            background: linear-gradient(45deg, #ffffff, #888888);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .language-options {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .language-option {
+            background: linear-gradient(145deg, #2a2a2a, #3a3a3a);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 16px 24px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+        
+        .language-option:hover {
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        /* Header */
+        .header {
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 16px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            font-size: 20px;
+            font-weight: 700;
+            background: linear-gradient(45deg, #ffffff, #888888);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.5px;
+        }
+        
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .header-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .header-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .user-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #ffffff, #cccccc);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        /* Navigation */
+        .nav-tabs {
+            display: flex;
+            background: rgba(20, 20, 20, 0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            margin: 20px;
+            padding: 4px;
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+        
+        .nav-tabs::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .nav-tab {
+            flex: 1;
+            background: none;
+            border: none;
+            color: #888888;
+            padding: 12px 16px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            white-space: nowrap;
+            min-width: max-content;
+        }
+        
+        .nav-tab.active {
+            background: linear-gradient(45deg, #ffffff, #cccccc);
+            color: #000000;
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+        }
+        
+        .nav-tab:hover:not(.active) {
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+        }
+        
+        /* Content Sections */
+        .content {
+            padding: 0 20px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section {
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        
+        .section.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* Home Section */
+        .hero-section {
+            background: linear-gradient(145deg, #111111, #222222);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            opacity: 0.3;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero-title {
+            font-size: 42px;
+            font-weight: 900;
+            margin-bottom: 16px;
+            background: linear-gradient(45deg, #ffffff, #999999);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -1px;
+        }
+        
+        .hero-subtitle {
+            font-size: 18px;
+            color: #cccccc;
+            margin-bottom: 32px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .hero-stat {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .hero-stat-number {
+            font-size: 28px;
+            font-weight: 700;
+            color: #00ff88;
+            display: block;
+        }
+        
+        .hero-stat-label {
+            font-size: 14px;
+            color: #888888;
+            margin-top: 4px;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .cta-primary {
+            background: linear-gradient(45deg, #ffffff, #cccccc);
+            color: #000000;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            padding: 14px 30px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-primary:hover, .cta-secondary:hover {
+            transform: translateY(-2px);
+        }
+        
+        /* About Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+        
+        .about-card {
+            background: linear-gradient(145deg, #111111, #1a1a1a);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 32px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .about-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .about-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 16px;
+        }
+        
+        .about-text {
+            color: #cccccc;
+            line-height: 1.6;
+        }
+        
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .service-card {
+            background: linear-gradient(145deg, #111111, #222222);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 24px;
+            transition: all 0.4s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: left 0.5s;
+        }
+        
+        .service-card:hover::before {
+            left: 100%;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+        }
+        
+        .service-icon {
+            font-size: 40px;
+            margin-bottom: 16px;
+            display: block;
+        }
+        
+        .service-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+        
+        .service-price {
+            background: linear-gradient(45deg, #00ff88, #00cc66);
+            color: #000000;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+        
+        .service-description {
+            color: #cccccc;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+        
+        .service-features {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+        
+        .service-features li {
+            color: #999999;
+            font-size: 13px;
+            margin-bottom: 6px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .service-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #00ff88;
+            font-weight: bold;
+        }
+        
+        .order-button {
+            background: linear-gradient(45deg, #ffffff, #cccccc);
+            color: #000000;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+        
+        .order-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+        }
+        
+        .section-title {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 32px;
+            background: linear-gradient(45deg, #ffffff, #999999);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.5px;
+            text-align: center;
+        }
+        
+        /* Chat Interface */
+        .chat-container {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            height: 70vh;
+            background: linear-gradient(145deg, #111111, #1a1a1a);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .chat-sidebar {
+            background: rgba(0, 0, 0, 0.3);
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            overflow-y: auto;
+        }
+        
+        .freelancer-list {
+            margin-bottom: 20px;
+        }
+        
+        .freelancer-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 8px;
+        }
+        
+        .freelancer-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .freelancer-avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #00ff88, #00cc66);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        .freelancer-info h4 {
+            color: #ffffff;
+            font-size: 14px;
+            margin-bottom: 2px;
+        }
+        
+        .freelancer-status {
+            color: #00ff88;
+            font-size: 12px;
+        }
+        
+        .chat-main {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .chat-header {
+            padding: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(0, 0, 0, 0.2);
+        }
+        
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .message {
+            max-width: 70%;
+            padding: 12px 16px;
+            border-radius: 12px;
+            word-wrap: break-word;
+        }
+        
+        .message.sent {
+            align-self: flex-end;
+            background: linear-gradient(45deg, #ffffff, #cccccc);
+            color: #000000;
+        }
+        
+        .message.received {
+            align-self: flex-start;
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+        }
+        
+        .chat-input {
+            padding: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            gap: 12px;
+        }
+        
+        .chat-input input {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            padding: 12px 16px;
+            color: white;
+            font-size: 14px;
+        }
+        
+        .chat-input input::placeholder {
+            color: #888888;
+        }
+        
+        .chat-send {
+            background: linear-gradient(45deg, #ffffff, #cccccc);
+            color: #000000;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        
+        /* Payment Modal */
+        .payment-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .payment-modal.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .payment-content {
+            background: linear-gradient(145deg, #1a1a1a, #2a2a2a);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+        }
+        
+        .payment-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 16px;
+            margin: 24px 0;
+        }
+        
+        .payment-method {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        .payment-method:hover {
+            border-color: rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .payment-method.selected {
+            border-color: #00ff88;
+            background: rgba(0, 255, 136, 0.1);
+        }
+        
+        .payment-icon {
+            font-size: 32px;
+            margin-bottom: 8px;
+            display: block;
+        }
+        
+        .payment-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+        
+        /* Profile Section */
+        .profile-card {
+            background: linear-gradient(145deg, #111111, #1a1a1a);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 32px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        
+        .profile-avatar-large {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #ffffff, #cccccc);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        
+        .profile-orders {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .order-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        
+        .order-status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        .order-status.pending {
+            background: rgba(255, 193, 7, 0.2);
+            color: #ffc107;
+        }
+        
+        .order-status.active {
+            background: rgba(0, 255, 136, 0.2);
+            color: #00ff88;
+        }
+        
+        .order-status.completed {
+            background: rgba(108, 117, 125, 0.2);
+            color: #6c757d;
+        }
+        
+        /* Language Tags */
+        .language-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        
+        .language-tag {
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            padding: 4px 10px;
+            border-radius: 16px;
+            font-size: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 32px;
+            }
+            
+            .hero-subtitle {
+                font-size: 16px;
+            }
+            
+            .chat-container {
+                grid-template-columns: 1fr;
+                height: 60vh;
+            }
+            
+            .chat-sidebar {
+                display: none;
+            }
+            
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+            }
+        }
+        
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Language Selection Modal -->
+        <div id="languageModal" class="language-modal">
+            <div class="language-selector">
+                <h2 class="language-title" data-translate="choose_language">Choose Your Language</h2>
+                <div class="language-options">
+                    <div class="language-option" onclick="setLanguage('en')">
+                        🇺🇸 English
+                    </div>
+                    <div class="language-option" onclick="setLanguage('ru')">
+                        🇷🇺 Русский
+                    </div>
+                    <div class="language-option" onclick="setLanguage('uk')">
+                        🇺🇦 Українська
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">KYOTOGAWA FREELANCE</div>
+                <div class="header-actions">
+                    <button class="header-btn" onclick="switchTab('chat')" data-translate="chat">Chat</button>
+                    <button class="header-btn" onclick="switchTab('profile')" data-translate="profile">Profile</button>
+                    <div class="user-avatar" id="userAvatar">U</div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Navigation -->
+        <nav class="nav-tabs">
+            <button class="nav-tab active" onclick="switchTab('home')" data-translate="home">Home</button>
+            <button class="nav-tab" onclick="switchTab('writing')" data-translate="writing">Writing</button>
+            <button class="nav-tab" onclick="switchTab('translation')" data-translate="translation">Translation</button>
+            <button class="nav-tab" onclick="switchTab('it')" data-translate="it">IT & Tech</button>
+            <button class="nav-tab" onclick="switchTab('design')" data-translate="design">Design</button>
+            <button class="nav-tab" onclick="switchTab('video')" data-translate="video">Video</button>
+            <button class="nav-tab" onclick="switchTab('audio')" data-translate="audio">Audio</button>
+            <button class="nav-tab" onclick="switchTab('marketing')" data-translate="marketing">Marketing</button>
+            <button class="nav-tab" onclick="switchTab('business')" data-translate="business">Business</button>
+            <button class="nav-tab" onclick="switchTab('education')" data-translate="education">Education</button>
+            <button class="nav-tab" onclick="switchTab('lifestyle')" data-translate="lifestyle">Lifestyle</button>
+        </nav>
+        
+        <!-- Content -->
+        <main class="content">
+            <!-- Home Section -->
+            <section id="home" class="section active">
+                <!-- Hero Section -->
+                <div class="hero-section">
+                    <div class="hero-bg"></div>
+                    <div class="hero-content">
+                        <h1 class="hero-title" data-translate="hero_title">Professional Freelance Services</h1>
+                        <p class="hero-subtitle" data-translate="hero_subtitle">
+                            Your trusted partner for high-quality digital solutions. From content creation to complex IT projects - we deliver excellence.
+                        </p>
+                        
+                        <div class="hero-stats">
+                            <div class="hero-stat">
+                                <span class="hero-stat-number">1000+</span>
+                                <span class="hero-stat-label" data-translate="projects_completed">Projects Completed</span>
+                            </div>
+                            <div class="hero-stat">
+                                <span class="hero-stat-number">24/7</span>
+                                <span class="hero-stat-label" data-translate="support">Support</span>
+                            </div>
+                            <div class="hero-stat">
+                                <span class="hero-stat-number">5★</span>
+                                <span class="hero-stat-label" data-translate="rating">Rating</span>
+                            </div>
+                            <div class="hero-stat">
+                                <span class="hero-stat-number">48h</span>
+                                <span class="hero-stat-label" data-translate="delivery">Fast Delivery</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cta-buttons">
+                            <button class="cta-primary" onclick="switchTab('basic')" data-translate="get_started">Get Started</button>
+                            <button class="cta-secondary" onclick="switchTab('chat')" data-translate="contact_us">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- About Section -->
+                <div class="about-grid">
+                    <div class="about-card">
+                        <span class="about-icon">🎯</span>
+                        <h3 class="about-title" data-translate="about_quality">Premium Quality</h3>
+                        <p class="about-text" data-translate="about_speed_desc">
+                            Fast turnaround times without compromising quality. Most projects completed within 24-48 hours.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card">
+                        <span class="about-icon">🔒</span>
+                        <h3 class="about-title" data-translate="about_trust">100% Secure</h3>
+                        <p class="about-text" data-translate="about_trust_desc">
+                            Your data and projects are completely secure. We use encrypted communications and secure payment methods.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card">
+                        <span class="about-icon">🌍</span>
+                        <h3 class="about-title" data-translate="about_global">Global Reach</h3>
+                        <p class="about-text" data-translate="about_global_desc">
+                            We serve clients worldwide with multilingual support and understanding of different markets.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card">
+                        <span class="about-icon">💎</span>
+                        <h3 class="about-title" data-translate="about_premium">Premium Service</h3>
+                        <p class="about-text" data-translate="about_premium_desc">
+                            Experience premium freelance services with dedicated project managers and 24/7 support.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card">
+                        <span class="about-icon">🤝</span>
+                        <h3 class="about-title" data-translate="about_partnership">Long-term Partnership</h3>
+                        <p class="about-text" data-translate="about_partnership_desc">
+                            We build lasting relationships with our clients, becoming your trusted digital partner.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Writing & Content Services -->
+            <section id="writing" class="section">
+                <h1 class="section-title" data-translate="writing_services">Writing & Content Services</h1>
+                <div class="services-grid">
+                    <div class="service-card" onclick="orderService('article-writing')">
+                        <span class="service-icon">📝</span>
+                        <h3 class="service-title" data-translate="article_writing_title">Article & Blog Writing</h3>
+                        <div class="service-price">$15-100 / article</div>
+                        <p class="service-description" data-translate="article_writing_desc">
+                            High-quality articles and blog posts that engage readers and drive traffic
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="article_feature_1">SEO optimized content</li>
+                            <li data-translate="article_feature_2">Original research</li>
+                            <li data-translate="article_feature_3">Any topic/niche</li>
+                            <li data-translate="article_feature_4">Fast delivery</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('copywriting')">
+                        <span class="service-icon">✍️</span>
+                        <h3 class="service-title" data-translate="copywriting_title">Sales Copywriting</h3>
+                        <div class="service-price">$25-500 / project</div>
+                        <p class="service-description" data-translate="copywriting_desc">
+                            Persuasive copy that converts visitors into customers
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="copywriting_feature_1">Landing pages</li>
+                            <li data-translate="copywriting_feature_2">Email campaigns</li>
+                            <li data-translate="copywriting_feature_3">Product descriptions</li>
+                            <li data-translate="copywriting_feature_4">Ad copy</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('technical-writing')">
+                        <span class="service-icon">📋</span>
+                        <h3 class="service-title" data-translate="technical_writing_title">Technical Writing</h3>
+                        <div class="service-price">$30-150 / document</div>
+                        <p class="service-description" data-translate="technical_writing_desc">
+                            Clear technical documentation and manuals
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="technical_feature_1">User manuals</li>
+                            <li data-translate="technical_feature_2">API documentation</li>
+                            <li data-translate="technical_feature_3">White papers</li>
+                            <li data-translate="technical_feature_4">Process documentation</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('creative-writing')">
+                        <span class="service-icon">🎭</span>
+                        <h3 class="service-title" data-translate="creative_writing_title">Creative Writing</h3>
+                        <div class="service-price">$20-200 / project</div>
+                        <p class="service-description" data-translate="creative_writing_desc">
+                            Stories, scripts, and creative content that captivates audiences
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="creative_feature_1">Short stories</li>
+                            <li data-translate="creative_feature_2">Scripts & screenplays</li>
+                            <li data-translate="creative_feature_3">Poetry & lyrics</li>
+                            <li data-translate="creative_feature_4">Book ghostwriting</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('proofreading')">
+                        <span class="service-icon">🔍</span>
+                        <h3 class="service-title" data-translate="proofreading_title">Editing & Proofreading</h3>
+                        <div class="service-price">$5-50 / 1000 words</div>
+                        <p class="service-description" data-translate="proofreading_desc">
+                            Professional editing to polish your content to perfection
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="proof_feature_1">Grammar & spelling</li>
+                            <li data-translate="proof_feature_2">Style improvement</li>
+                            <li data-translate="proof_feature_3">Fact checking</li>
+                            <li data-translate="proof_feature_4">Format consistency</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('resume-writing')">
+                        <span class="service-icon">📄</span>
+                        <h3 class="service-title" data-translate="resume_writing_title">Resume & CV Writing</h3>
+                        <div class="service-price">$50-300 / resume</div>
+                        <p class="service-description" data-translate="resume_writing_desc">
+                            Professional resumes that get you noticed by employers
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="resume_feature_1">ATS-friendly format</li>
+                            <li data-translate="resume_feature_2">Industry-specific</li>
+                            <li data-translate="resume_feature_3">Cover letter included</li>
+                            <li data-translate="resume_feature_4">LinkedIn optimization</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('data-entry')">
+                        <span class="service-icon">⌨️</span>
+                        <h3 class="service-title" data-translate="data_entry_title">Data Entry & Typing</h3>
+                        <div class="service-price">$3-15 / hour</div>
+                        <p class="service-description" data-translate="data_entry_desc">
+                            Fast and accurate data entry services
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="data_feature_1">99.9% accuracy</li>
+                            <li data-translate="data_feature_2">Excel, Google Sheets</li>
+                            <li data-translate="data_feature_3">Online/offline data</li>
+                            <li data-translate="data_feature_4">Quick turnaround</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('virtual-assistant')">
+                        <span class="service-icon">🤖</span>
+                        <h3 class="service-title" data-translate="virtual_assistant_title">Virtual Assistant</h3>
+                        <div class="service-price">$8-25 / hour</div>
+                        <p class="service-description" data-translate="virtual_assistant_desc">
+                            Complete administrative support for your business
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="va_feature_1">Email management</li>
+                            <li data-translate="va_feature_2">Calendar scheduling</li>
+                            <li data-translate="va_feature_3">Research tasks</li>
+                            <li data-translate="va_feature_4">Customer support</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Translation Services -->
+            <section id="translation" class="section">
+                <h1 class="section-title" data-translate="translation_services">Translation Services</h1>
+                <div class="services-grid">
+                    <div class="service-card" onclick="orderService('document-translation')">
+                        <span class="service-icon">📄</span>
+                        <h3 class="service-title" data-translate="doc_translation_title">Document Translation</h3>
+                        <div class="service-price">$0.08-0.15 / word</div>
+                        <p class="service-description" data-translate="doc_translation_desc">
+                            Professional document translation with native speakers
+                        </p>
+                        <div class="language-tags">
+                            <span class="language-tag">🇺🇸 English</span>
+                            <span class="language-tag">🇷🇺 Russian</span>
+                            <span class="language-tag">🇺🇦 Ukrainian</span>
+                            <span class="language-tag">🇵🇱 Polish</span>
+                            <span class="language-tag">🇫🇷 French</span>
+                        </div>
+                        <ul class="service-features">
+                            <li data-translate="doc_translation_feature_1">Certified translations</li>
+                            <li data-translate="doc_translation_feature_2">Legal & medical docs</li>
+                            <li data-translate="doc_translation_feature_3">Native speaker review</li>
+                            <li data-translate="doc_translation_feature_4">Fast delivery</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('website-localization')">
+                        <span class="service-icon">🌐</span>
+                        <h3 class="service-title" data-translate="website_localization_title">Website Localization</h3>
+                        <div class="service-price">$200-800 / project</div>
+                        <p class="service-description" data-translate="website_localization_desc">
+                            Complete website localization for global markets
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="website_localization_feature_1">Cultural adaptation</li>
+                            <li data-translate="website_localization_feature_2">SEO optimization</li>
+                            <li data-translate="website_localization_feature_3">UI/UX translation</li>
+                            <li data-translate="website_localization_feature_4">Testing included</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('live-interpretation')">
+                        <span class="service-icon">🎤</span>
+                        <h3 class="service-title" data-translate="live_interpretation_title">Live Interpretation</h3>
+                        <div class="service-price">$30-80 / hour</div>
+                        <p class="service-description" data-translate="live_interpretation_desc">
+                            Real-time interpretation for meetings and conferences
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="live_interpretation_feature_1">Zoom/Teams integration</li>
+                            <li data-translate="live_interpretation_feature_2">Business meetings</li>
+                            <li data-translate="live_interpretation_feature_3">Conference calls</li>
+                            <li data-translate="live_interpretation_feature_4">Technical terminology</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- IT Services -->
+            <section id="it" class="section">
+                <h1 class="section-title" data-translate="it_services">IT Services</h1>
+                <div class="services-grid">
+                    <div class="service-card" onclick="orderService('web-development')">
+                        <span class="service-icon">💻</span>
+                        <h3 class="service-title" data-translate="web_dev_title">Web Development</h3>
+                        <div class="service-price">$500-5000 / project</div>
+                        <p class="service-description" data-translate="web_dev_desc">
+                            Custom websites and web applications with modern technologies
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="web_dev_feature_1">React, Vue, Angular</li>
+                            <li data-translate="web_dev_feature_2">Node.js backend</li>
+                            <li data-translate="web_dev_feature_3">Mobile responsive</li>
+                            <li data-translate="web_dev_feature_4">SEO optimized</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('mobile-app')">
+                        <span class="service-icon">📱</span>
+                        <h3 class="service-title" data-translate="mobile_app_title">Mobile App Development</h3>
+                        <div class="service-price">$1000-10000 / project</div>
+                        <p class="service-description" data-translate="mobile_app_desc">
+                            Native and cross-platform mobile applications
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="mobile_app_feature_1">iOS & Android</li>
+                            <li data-translate="mobile_app_feature_2">React Native, Flutter</li>
+                            <li data-translate="mobile_app_feature_3">App Store deployment</li>
+                            <li data-translate="mobile_app_feature_4">Backend integration</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('blockchain')">
+                        <span class="service-icon">⛓️</span>
+                        <h3 class="service-title" data-translate="blockchain_title">Blockchain Development</h3>
+                        <div class="service-price">$2000-20000 / project</div>
+                        <p class="service-description" data-translate="blockchain_desc">
+                            Smart contracts, DApps, and blockchain solutions
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="blockchain_feature_1">Ethereum, Solana, BSC</li>
+                            <li data-translate="blockchain_feature_2">Smart contracts</li>
+                            <li data-translate="blockchain_feature_3">DeFi solutions</li>
+                            <li data-translate="blockchain_feature_4">NFT platforms</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('ai-ml')">
+                        <span class="service-icon">🧠</span>
+                        <h3 class="service-title" data-translate="ai_ml_title">AI & Machine Learning</h3>
+                        <div class="service-price">$1500-15000 / project</div>
+                        <p class="service-description" data-translate="ai_ml_desc">
+                            Custom AI solutions and machine learning models
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="ai_ml_feature_1">Python, TensorFlow</li>
+                            <li data-translate="ai_ml_feature_2">Computer vision</li>
+                            <li data-translate="ai_ml_feature_3">NLP solutions</li>
+                            <li data-translate="ai_ml_feature_4">Data analysis</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('cybersecurity')">
+                        <span class="service-icon">🔐</span>
+                        <h3 class="service-title" data-translate="cybersecurity_title">Cybersecurity</h3>
+                        <div class="service-price">$300-3000 / project</div>
+                        <p class="service-description" data-translate="cybersecurity_desc">
+                            Security audits, penetration testing, and security solutions
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="cybersecurity_feature_1">Security audits</li>
+                            <li data-translate="cybersecurity_feature_2">Penetration testing</li>
+                            <li data-translate="cybersecurity_feature_3">Vulnerability assessment</li>
+                            <li data-translate="cybersecurity_feature_4">Security consulting</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('devops')">
+                        <span class="service-icon">⚙️</span>
+                        <h3 class="service-title" data-translate="devops_title">DevOps & Cloud</h3>
+                        <div class="service-price">$50-200 / hour</div>
+                        <p class="service-description" data-translate="devops_desc">
+                            Infrastructure automation, CI/CD, and cloud solutions
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="devops_feature_1">AWS, Azure, GCP</li>
+                            <li data-translate="devops_feature_2">Docker, Kubernetes</li>
+                            <li data-translate="devops_feature_3">CI/CD pipelines</li>
+                            <li data-translate="devops_feature_4">Infrastructure as Code</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Video Services -->
+            <section id="video" class="section">
+                <h1 class="section-title" data-translate="video_services">Video Services</h1>
+                <div class="services-grid">
+                    <div class="service-card" onclick="orderService('video-editing')">
+                        <span class="service-icon">🎬</span>
+                        <h3 class="service-title" data-translate="video_editing_title">Professional Video Editing</h3>
+                        <div class="service-price">$25-150 / project</div>
+                        <p class="service-description" data-translate="video_editing_desc">
+                            High-quality video editing for all your content needs
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="video_editing_feature_1">Color grading & correction</li>
+                            <li data-translate="video_editing_feature_2">Motion graphics</li>
+                            <li data-translate="video_editing_feature_3">Audio enhancement</li>
+                            <li data-translate="video_editing_feature_4">4K export quality</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('animation')">
+                        <span class="service-icon">🎨</span>
+                        <h3 class="service-title" data-translate="animation_title">2D/3D Animation</h3>
+                        <div class="service-price">$200-2000 / project</div>
+                        <p class="service-description" data-translate="animation_desc">
+                            Custom animations for marketing, education, and entertainment
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="animation_feature_1">Character animation</li>
+                            <li data-translate="animation_feature_2">Motion graphics</li>
+                            <li data-translate="animation_feature_3">3D modeling</li>
+                            <li data-translate="animation_feature_4">Explainer videos</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('live-streaming')">
+                        <span class="service-icon">📺</span>
+                        <h3 class="service-title" data-translate="live_streaming_title">Live Streaming Setup</h3>
+                        <div class="service-price">$100-500 / setup</div>
+                        <p class="service-description" data-translate="live_streaming_desc">
+                            Professional live streaming setup and management
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="live_streaming_feature_1">Multi-platform streaming</li>
+                            <li data-translate="live_streaming_feature_2">Custom overlays</li>
+                            <li data-translate="live_streaming_feature_3">Technical support</li>
+                            <li data-translate="live_streaming_feature_4">Equipment guidance</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Audio Services -->
+            <section id="audio" class="section">
+                <h1 class="section-title" data-translate="audio_services">Audio Services</h1>
+                <div class="services-grid">
+                    <div class="service-card" onclick="orderService('music-production')">
+                        <span class="service-icon">🎵</span>
+                        <h3 class="service-title" data-translate="music_production_title">Music Production</h3>
+                        <div class="service-price">$200-2000 / track</div>
+                        <p class="service-description" data-translate="music_production_desc">
+                            Complete music production from composition to mastering
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="music_production_feature_1">Beat making</li>
+                            <li data-translate="music_production_feature_2">Recording & mixing</li>
+                            <li data-translate="music_production_feature_3">Mastering</li>
+                            <li data-translate="music_production_feature_4">All genres</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('voiceover')">
+                        <span class="service-icon">🎙️</span>
+                        <h3 class="service-title" data-translate="voiceover_title">Professional Voiceover</h3>
+                        <div class="service-price">$50-300 / project</div>
+                        <p class="service-description" data-translate="voiceover_desc">
+                            High-quality voiceover services in multiple languages
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="voiceover_feature_1">Commercial quality</li>
+                            <li data-translate="voiceover_feature_2">Multiple languages</li>
+                            <li data-translate="voiceover_feature_3">Fast turnaround</li>
+                            <li data-translate="voiceover_feature_4">Revisions included</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('sound-design')">
+                        <span class="service-icon">🔊</span>
+                        <h3 class="service-title" data-translate="sound_design_title">Sound Design</h3>
+                        <div class="service-price">$100-1000 / project</div>
+                        <p class="service-description" data-translate="sound_design_desc">
+                            Custom sound effects and audio branding solutions
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="sound_design_feature_1">Custom SFX</li>
+                            <li data-translate="sound_design_feature_2">Audio logos</li>
+                            <li data-translate="sound_design_feature_3">Podcast intros</li>
+                            <li data-translate="sound_design_feature_4">Game audio</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- AI Services -->
+            <section id="ai" class="section">
+                <h1 class="section-title" data-translate="ai_services">AI-Powered Services</h1>
+                <div class="services-grid">
+                    <div class="service-card" onclick="orderService('ai-writing')">
+                        <span class="service-icon">✍️</span>
+                        <h3 class="service-title" data-translate="ai_writing_title">AI Content Writing</h3>
+                        <div class="service-price">$20-100 / project</div>
+                        <p class="service-description" data-translate="ai_writing_desc">
+                            AI-generated content with human editing and optimization
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="ai_writing_feature_1">Blog posts & articles</li>
+                            <li data-translate="ai_writing_feature_2">Product descriptions</li>
+                            <li data-translate="ai_writing_feature_3">Social media content</li>
+                            <li data-translate="ai_writing_feature_4">SEO optimization</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('ai-images')">
+                        <span class="service-icon">🎨</span>
+                        <h3 class="service-title" data-translate="ai_images_title">AI Image Generation</h3>
+                        <div class="service-price">$10-50 / image</div>
+                        <p class="service-description" data-translate="ai_images_desc">
+                            Custom AI-generated images for your creative projects
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="ai_images_feature_1">Custom prompts</li>
+                            <li data-translate="ai_images_feature_2">High resolution</li>
+                            <li data-translate="ai_images_feature_3">Multiple styles</li>
+                            <li data-translate="ai_images_feature_4">Commercial license</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('chatbot')">
+                        <span class="service-icon">🤖</span>
+                        <h3 class="service-title" data-translate="chatbot_title">Custom Chatbots</h3>
+                        <div class="service-price">$500-3000 / project</div>
+                        <p class="service-description" data-translate="chatbot_desc">
+                            Intelligent chatbots for customer service and automation
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="chatbot_feature_1">AI-powered responses</li>
+                            <li data-translate="chatbot_feature_2">Multi-platform integration</li>
+                            <li data-translate="chatbot_feature_3">Natural language processing</li>
+                            <li data-translate="chatbot_feature_4">Analytics dashboard</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Design Services -->
+            <section id="design" class="section">
+                <h1 class="section-title" data-translate="design_services">Design Services</h1>
+                <div class="services-grid">
+                    <div class="service-card" onclick="orderService('logo-design')">
+                        <span class="service-icon">🎨</span>
+                        <h3 class="service-title" data-translate="logo_design_title">Logo Design</h3>
+                        <div class="service-price">$50-500 / project</div>
+                        <p class="service-description" data-translate="logo_design_desc">
+                            Professional logo design that represents your brand perfectly
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="logo_design_feature_1">Multiple concepts</li>
+                            <li data-translate="logo_design_feature_2">Vector formats</li>
+                            <li data-translate="logo_design_feature_3">Brand guidelines</li>
+                            <li data-translate="logo_design_feature_4">Unlimited revisions</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('ui-ux')">
+                        <span class="service-icon">📱</span>
+                        <h3 class="service-title" data-translate="ui_ux_title">UI/UX Design</h3>
+                        <div class="service-price">$300-2000 / project</div>
+                        <p class="service-description" data-translate="ui_ux_desc">
+                            User-centered design for websites and mobile applications
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="ui_ux_feature_1">User research</li>
+                            <li data-translate="ui_ux_feature_2">Wireframing</li>
+                            <li data-translate="ui_ux_feature_3">Prototyping</li>
+                            <li data-translate="ui_ux_feature_4">Usability testing</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                    
+                    <div class="service-card" onclick="orderService('print-design')">
+                        <span class="service-icon">🖨️</span>
+                        <h3 class="service-title" data-translate="print_design_title">Print Design</h3>
+                        <div class="service-price">$30-300 / project</div>
+                        <p class="service-description" data-translate="print_design_desc">
+                            Professional print design for marketing materials and publications
+                        </p>
+                        <ul class="service-features">
+                            <li data-translate="print_design_feature_1">Business cards</li>
+                            <li data-translate="print_design_feature_2">Brochures & flyers</li>
+                            <li data-translate="print_design_feature_3">Print-ready files</li>
+                            <li data-translate="print_design_feature_4">High resolution</li>
+                        </ul>
+                        <button class="order-button" data-translate="order_now">Order Now</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Chat Section -->
+            <section id="chat" class="section">
+                <h1 class="section-title" data-translate="chat_title">Live Chat</h1>
+                <div class="chat-container">
+                    <div class="chat-sidebar">
+                        <h3 style="color: #fff; margin-bottom: 16px;" data-translate="available_freelancers">Available Freelancers</h3>
+                        <div class="freelancer-list">
+                            <div class="freelancer-item" onclick="selectFreelancer('alex')">
+                                <div class="freelancer-avatar">A</div>
+                                <div class="freelancer-info">
+                                    <h4>Alex Thompson</h4>
+                                    <div class="freelancer-status" data-translate="online">Online</div>
+                                </div>
+                            </div>
+                            <div class="freelancer-item" onclick="selectFreelancer('maria')">
+                                <div class="freelancer-avatar">M</div>
+                                <div class="freelancer-info">
+                                    <h4>Maria Rodriguez</h4>
+                                    <div class="freelancer-status" data-translate="online">Online</div>
+                                </div>
+                            </div>
+                            <div class="freelancer-item" onclick="selectFreelancer('dmitry')">
+                                <div class="freelancer-avatar">D</div>
+                                <div class="freelancer-info">
+                                    <h4>Dmitry Petrov</h4>
+                                    <div class="freelancer-status" data-translate="online">Online</div>
+                                </div>
+                            </div>
+                            <div class="freelancer-item" onclick="selectFreelancer('sarah')">
+                                <div class="freelancer-avatar">S</div>
+                                <div class="freelancer-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <div class="freelancer-status" data-translate="busy">Busy</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-main">
+                        <div class="chat-header">
+                            <h3 id="chatWithTitle" style="color: #fff; margin: 0;" data-translate="select_freelancer">Select a freelancer to start chatting</h3>
+                        </div>
+                        <div class="chat-messages" id="chatMessages">
+                            <div class="message received">
+                                <span data-translate="welcome_message">Welcome! Please select a freelancer to start your conversation.</span>
+                            </div>
+                        </div>
+                        <div class="chat-input">
+                            <input type="text" id="messageInput" placeholder="Type your message..." data-translate-placeholder="type_message">
+                            <button class="chat-send" onclick="sendMessage()" data-translate="send">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Profile Section -->
+            <section id="profile" class="section">
+                <h1 class="section-title" data-translate="profile_title">My Profile</h1>
+                
+                <div class="profile-card">
+                    <div class="profile-avatar-large" id="profileAvatar">U</div>
+                    <h2 id="profileName" style="color: #fff; margin-bottom: 8px;">User Name</h2>
+                    <p style="color: #888; margin-bottom: 20px;" data-translate="client_status">Client</p>
+                    <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 20px;">
+                        <div style="text-align: center;">
+                            <div style="font-size: 24px; font-weight: bold; color: #00ff88;" id="totalOrders">0</div>
+                            <div style="font-size: 14px; color: #888;" data-translate="total_orders">Total Orders</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 24px; font-weight: bold; color: #00ff88;" id="completedOrders">0</div>
+                            <div style="font-size: 14px; color: #888;" data-translate="completed_orders">Completed</div>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 24px; font-weight: bold; color: #00ff88;" id="totalSpent">$0</div>
+                            <div style="font-size: 14px; color: #888;" data-translate="total_spent">Total Spent</div>
+                        </div>
+                    </div>
+                    <button class="cta-secondary" onclick="editProfile()" data-translate="edit_profile">Edit Profile</button>
+                </div>
+                
+                <h3 style="color: #fff; margin-bottom: 20px;" data-translate="recent_orders">Recent Orders</h3>
+                <div class="profile-orders">
+                    <div class="order-card">
+                        <div class="order-status active" data-translate="status_active">Active</div>
+                        <h4 style="color: #fff; margin-bottom: 8px;">Website Development</h4>
+                        <p style="color: #888; margin-bottom: 12px;">Assigned to: Alex Thompson</p>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="color: #00ff88; font-weight: bold;">$2,500</span>
+                            <button class="order-button" style="width: auto; padding: 8px 16px;" onclick="openChat('alex')" data-translate="contact">Contact</button>
+                        </div>
+                    </div>
+                    
+                    <div class="order-card">
+                        <div class="order-status completed" data-translate="status_completed">Completed</div>
+                        <h4 style="color: #fff; margin-bottom: 8px;">Logo Design</h4>
+                        <p style="color: #888; margin-bottom: 12px;">Completed by: Maria Rodriguez</p>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="color: #888;">$150</span>
+                            <button class="order-button" style="width: auto; padding: 8px 16px; background: rgba(255,255,255,0.1);" data-translate="review">Review</button>
+                        </div>
+                    </div>
+                    
+                    <div class="order-card">
+                        <div class="order-status pending" data-translate="status_pending">Pending</div>
+                        <h4 style="color: #fff; margin-bottom: 8px;">Content Writing</h4>
+                        <p style="color: #888; margin-bottom: 12px;">Waiting for assignment</p>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="color: #ffc107;">$75</span>
+                            <button class="order-button" style="width: auto; padding: 8px 16px;" data-translate="cancel">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Payment Modal -->
+        <div id="paymentModal" class="payment-modal">
+            <div class="payment-content">
+                <h2 style="color: #fff; margin-bottom: 24px;" data-translate="payment_title">Choose Payment Method</h2>
+                <div id="orderSummary" style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 12px; margin-bottom: 24px;">
+                    <h3 style="color: #fff; margin-bottom: 12px;" id="orderServiceName">Service Name</h3>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                        <span style="color: #888;" data-translate="price">Price:</span>
+                        <span style="color: #00ff88; font-weight: bold;" id="orderPrice">$0</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color: #888;" data-translate="delivery_time">Delivery:</span>
+                        <span style="color: #fff;" id="orderDelivery">1-3 days</span>
+                    </div>
+                </div>
+                
+                <div class="payment-methods">
+                    <div class="payment-method" onclick="selectPaymentMethod('telegram')" data-payment="telegram">
+                        <span class="payment-icon">💎</span>
+                        <div class="payment-name" data-translate="telegram_wallet">Telegram Wallet</div>
+                    </div>
+                    <div class="payment-method" onclick="selectPaymentMethod('crypto')" data-payment="crypto">
+                        <span class="payment-icon">₿</span>
+                        <div class="payment-name" data-translate="cryptocurrency">Cryptocurrency</div>
+                    </div>
+                    <div class="payment-method" onclick="selectPaymentMethod('paypal')" data-payment="paypal">
+                        <span class="payment-icon">💳</span>
+                        <div class="payment-name" data-translate="paypal">PayPal</div>
+                    </div>
+                </div>
+                
+                <div style="display: flex; gap: 16px; margin-top: 32px;">
+                    <button class="cta-secondary" onclick="closePaymentModal()" data-translate="cancel">Cancel</button>
+                    <button class="cta-primary" onclick="processPayment()" data-translate="pay_now">Pay Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let currentUser = null;
+        let currentLanguage = 'en';
+        let selectedPaymentMethod = null;
+        let currentService = null;
+        let selectedFreelancer = null;
+        
+                status_active: "Active",
+                status_completed: "Completed", 
+                status_pending: "Pending",
+                contact: "Contact",
+                review: "Review",
+                cancel: "Cancel",
+                payment_title: "Choose Payment Method",
+                price: "Price",
+                delivery_time: "Delivery",
+                telegram_wallet: "Telegram Wallet",
+                cryptocurrency: "Cryptocurrency", 
+                paypal: "PayPal",
+                pay_now: "Pay Now",
+                writing_services: "Writing & Content Services",
+                marketing_services: "Digital Marketing Services",
+                business_services: "Business Services",
+                education_services: "Education & Training Services",
+                lifestyle_services: "Lifestyle & Personal Services",
+                design_services: "Design & Creative Services"
+            },
+            ru: {
+                choose_language: "Выберите язык",
+                home: "Главная",
+                writing: "Контент",
+                translation: "Переводы",
+                it: "IT и Tech",
+                design: "Дизайн",
+                video: "Видео",
+                audio: "Аудио", 
+                marketing: "Маркетинг",
+                business: "Бизнес",
+                education: "Образование",
+                lifestyle: "Лайфстайл",
+                chat: "Чат",
+                profile: "Профиль",
+                hero_title: "Полная фриланс-площадка",
+                hero_subtitle: "Ваше универсальное решение для всех фриланс-услуг. От контента и дизайна до IT и лайфстайла - мы соединяем вас с лучшими профессионалами мира.",
+                projects_completed: "Проектов завершено",
+                support: "Поддержка 24/7",
+                rating: "Средний рейтинг",
+                delivery: "Быстрая доставка",
+                get_started: "Начать",
+                contact_us: "Связаться с нами",
+                about_quality: "Премиальное качество",
+                about_quality_desc: "Мы предоставляем только высококачественную работу с вниманием к каждой детали. Ваш успех - наш приоритет.",
+                about_speed: "Молниеносно быстро",
+                about_speed_desc: "Быстрое выполнение без ущерба для качества. Большинство проектов завершается в течение 24-48 часов.",
+                about_trust: "100% безопасно",
+                about_trust_desc: "Ваши данные и проекты полностью защищены. Мы используем зашифрованные коммуникации и безопасные способы оплаты.",
+                about_global: "Глобальный пул талантов",
+                about_global_desc: "Доступ к тысячам проверенных профессионалов по всему миру с экспертизой в каждой мыслимой области.",
+                about_premium: "Премиальная поддержка",
+                about_premium_desc: "Испытайте премиальные фриланс-услуги с выделенными менеджерами проектов и многоязычной поддержкой 24/7.",
+                about_partnership: "Долгосрочное партнерство",
+                about_partnership_desc: "Мы строим долговременные отношения с нашими клиентами, становясь вашим надежным цифровым партнером для всех проектов.",
+                order_now: "Заказать сейчас",
+                online: "В сети",
+                busy: "Занят",
+                select_freelancer: "Выберите фрилансера для начала чата",
+                welcome_message: "Добро пожаловать! Выберите фрилансера для начала разговора.",
+                type_message: "Введите сообщение...",
+                send: "Отправить",
+                profile_title: "Мой профиль",
+                client_status: "Премиум клиент",
+                total_orders: "Всего заказов",
+                completed_orders: "Завершено",
+                total_spent: "Потрачено",
+                edit_profile: "Редактировать профиль",
+                recent_orders: "Последние заказы",
+                status_active: "Активный",
+                status_completed: "Завершен",
+                status_pending: "Ожидание",
+                contact: "Связаться",
+                review: "Отзыв",
+                cancel: "Отменить",
+                payment_title: "Выберите способ оплаты",
+                price: "Цена",
+                delivery_time: "Доставка",
+                telegram_wallet: "Telegram Кошелек",
+                cryptocurrency: "Криптовалюта",
+                paypal: "PayPal",
+                pay_now: "Оплатить",
+                writing_services: "Услуги контента и текстов",
+                marketing_services: "Услуги цифрового маркетинга",
+                business_services: "Бизнес-услуги",
+                education_services: "Образовательные услуги",
+                lifestyle_services: "Лайфстайл услуги",
+                design_services: "Дизайн и креативные услуги"
+            },
+            uk: {
+                choose_language: "Оберіть мову",
+                home: "Головна",
+                writing: "Контент",
+                translation: "Переклади",
+                it: "IT і Tech",
+                design: "Дизайн",
+                video: "Відео",
+                audio: "Аудіо",
+                marketing: "Маркетинг",
+                business: "Бізнес",
+                education: "Освіта",
+                lifestyle: "Лайфстайл",
+                chat: "Чат",
+                profile: "Профіль",
+                hero_title: "Повна фріланс-платформа",
+                hero_subtitle: "Ваше універсальне рішення для всіх фріланс-послуг. Від контенту та дизайну до IT та лайфстайлу - ми з'єднуємо вас з найкращими професіоналами світу.",
+                projects_completed: "Проектів завершено",
+                support: "Підтримка 24/7",
+                rating: "Середній рейтинг",
+                delivery: "Швидка доставка", 
+                get_started: "Почати",
+                contact_us: "Зв'язатися з нами",
+                about_quality: "Преміальна якість",
+                about_quality_desc: "Ми надаємо лише високоякісну роботу з увагою до кожної деталі. Ваш успіх - наш пріоритет.",
+                about_speed: "Блискавично швидко",
+                about_speed_desc: "Швидке виконання без шкоди для якості. Більшість проектів завершується протягом 24-48 годин.",
+                about_trust: "100% безпечно",
+                about_trust_desc: "Ваші дані та проекти повністю захищені. Ми використовуємо зашифровані комунікації та безпечні способи оплати.",
+                about_global: "Глобальний пул талантів",
+                about_global_desc: "Доступ до тисяч перевірених професіоналів по всьому світу з експертизою в кожній уявній сфері.",
+                about_premium: "Преміальна підтримка",
+                about_premium_desc: "Відчуйте преміальні фріланс послуги з виділеними менеджерами проектів та багатомовною підтримкою 24/7.",
+                about_partnership: "Довгострокове партнерство",
+                about_partnership_desc: "Ми будуємо довготривалі відносини з нашими клієнтами, стаючи вашим надійним цифровим партнером для всіх проектів.",
+                order_now: "Замовити зараз",
+                online: "В мережі",
+                busy: "Зайнятий",
+                select_freelancer: "Оберіть фрілансера для початку чату",
+                welcome_message: "Ласкаво просимо! Оберіть фрілансера для початку розмови.",
+                type_message: "Введіть повідомлення...",
+                send: "Відправити",
+                profile_title: "Мій профіль",
+                client_status: "Преміум клієнт",
+                total_orders: "Всього замовлень",
+                completed_orders: "Завершено",
+                total_spent: "Витрачено",
+                edit_profile: "Редагувати профіль",
+                recent_orders: "Останні замовлення",
+                status_active: "Активний",
+                status_completed: "Завершений",
+                status_pending: "Очікування",
+                contact: "Зв'язатися",
+                review: "Відгук", 
+                cancel: "Скасувати",
+                payment_title: "Оберіть спосіб оплати",
+                price: "Ціна",
+                delivery_time: "Доставка",
+                telegram_wallet: "Telegram Гаманець",
+                cryptocurrency: "Криптовалюта",
+                paypal: "PayPal",
+                pay_now: "Оплатити",
+                writing_services: "Послуги контенту та текстів",
+                marketing_services: "Послуги цифрового маркетингу",
+                business_services: "Бізнес-послуги",
+                education_services: "Освітні послуги",
+                lifestyle_services: "Лайфстайл послуги",
+                design_services: "Дизайн та креативні послуги"
+            }
+        };
+        
+        // Initialize app
+        window.onload = function() {
+            initializeTelegramWebApp();
+            showLanguageModal();
+        };
+        
+        function initializeTelegramWebApp() {
+            if (window.Telegram && window.Telegram.WebApp) {
+                const tg = window.Telegram.WebApp;
+                tg.ready();
+                tg.expand();
+                
+                // Get user data
+                if (tg.initDataUnsafe.user) {
+                    currentUser = tg.initDataUnsafe.user;
+                    updateUserInfo();
+                }
+                
+                // Set theme
+                document.body.style.setProperty('--tg-theme-bg-color', tg.themeParams.bg_color || '#000000');
+                document.body.style.setProperty('--tg-theme-text-color', tg.themeParams.text_color || '#ffffff');
+            }
+        }
+        
+        function updateUserInfo() {
+            if (currentUser) {
+                const avatar = document.getElementById('userAvatar');
+                const profileAvatar = document.getElementById('profileAvatar');
+                const profileName = document.getElementById('profileName');
+                
+                const initials = currentUser.first_name ? currentUser.first_name.charAt(0).toUpperCase() : 'U';
+                const fullName = `${currentUser.first_name || ''} ${currentUser.last_name || ''}`.trim() || 'User';
+                
+                if (avatar) avatar.textContent = initials;
+                if (profileAvatar) profileAvatar.textContent = initials;
+                if (profileName) profileName.textContent = fullName;
+            }
+        }
+        
+        function showLanguageModal() {
+            document.getElementById('languageModal').classList.remove('hidden');
+        }
+        
+        function setLanguage(lang) {
+            currentLanguage = lang;
+            document.getElementById('languageModal').classList.add('hidden');
+            translatePage();
+            
+            // Store language preference
+            if (window.Telegram && window.Telegram.WebApp) {
+                window.Telegram.WebApp.CloudStorage?.setItem('language', lang);
+            }
+        }
+        
+        function translatePage() {
+            const elements = document.querySelectorAll('[data-translate]');
+            elements.forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (translations[currentLanguage] && translations[currentLanguage][key]) {
+                    element.textContent = translations[currentLanguage][key];
+                }
+            });
+            
+            // Translate placeholders
+            const placeholderElements = document.querySelectorAll('[data-translate-placeholder]');
+            placeholderElements.forEach(element => {
+                const key = element.getAttribute('data-translate-placeholder');
+                if (translations[currentLanguage] && translations[currentLanguage][key]) {
+                    element.setAttribute('placeholder', translations[currentLanguage][key]);
+                }
+            });
+        }
+        
+        function switchTab(tabName) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => section.classList.remove('active'));
+            
+            // Remove active class from all tabs
+            const tabs = document.querySelectorAll('.nav-tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            
+            // Show selected section
+            document.getElementById(tabName).classList.add('active');
+            
+            // Add active class to selected tab
+            const activeTab = document.querySelector(`[onclick="switchTab('${tabName}')"]`);
+            if (activeTab) activeTab.classList.add('active');
+            
+            // Special handling for chat tab
+            if (tabName === 'chat') {
+                initializeChat();
+            }
+        }
+        
+        function orderService(serviceId) {
+            currentService = serviceId;
+            
+            // Get service details (mock data for now)
+            const serviceDetails = {
+                typing: { name: 'Text Typing', price: '$2-5', delivery: '1-2 hours' },
+                'web-development': { name: 'Web Development', price: '$500-5000', delivery: '1-2 weeks' },
+                'logo-design': { name: 'Logo Design', price: '$50-500', delivery: '2-3 days' },
+                'video-editing': { name: 'Video Editing', price: '$25-150', delivery: '1-3 days' }
+            };
+            
+            const service = serviceDetails[serviceId] || { name: 'Service', price: '$0', delivery: '1-3 days' };
+            
+            // Update payment modal
+            document.getElementById('orderServiceName').textContent = service.name;
+            document.getElementById('orderPrice').textContent = service.price;
+            document.getElementById('orderDelivery').textContent = service.delivery;
+            
+            // Show payment modal
+            document.getElementById('paymentModal').classList.add('show');
+        }
+        
+        function selectPaymentMethod(method) {
+            // Remove previous selection
+            document.querySelectorAll('.payment-method').forEach(el => el.classList.remove('selected'));
+            
+            // Select new method
+            document.querySelector(`[data-payment="${method}"]`).classList.add('selected');
+            selectedPaymentMethod = method;
+        }
+        
+        function processPayment() {
+            if (!selectedPaymentMethod) {
+                alert('Please select a payment method');
+                return;
+            }
+            
+            // Mock payment processing
+            if (window.Telegram && window.Telegram.WebApp) {
+                window.Telegram.WebApp.showAlert(`Processing payment via ${selectedPaymentMethod}...`);
+            }
+            
+            setTimeout(() => {
+                if (window.Telegram && window.Telegram.WebApp) {
+                    window.Telegram.WebApp.showAlert('Payment successful! You will be contacted by a freelancer soon.');
+                }
+                closePaymentModal();
+                updateOrderStats();
+            }, 2000);
+        }
+        
+        function closePaymentModal() {
+            document.getElementById('paymentModal').classList.remove('show');
+            selectedPaymentMethod = null;
+            document.querySelectorAll('.payment-method').forEach(el => el.classList.remove('selected'));
+        }
+        
+        function updateOrderStats() {
+            // Update profile statistics (mock)
+            const totalOrders = document.getElementById('totalOrders');
+            const totalSpent = document.getElementById('totalSpent');
+            
+            if (totalOrders) {
+                const current = parseInt(totalOrders.textContent) || 0;
+                totalOrders.textContent = current + 1;
+            }
+            
+            if (totalSpent) {
+                const current = parseInt(totalSpent.textContent.replace('
+                                quality_desc">
+                            We deliver only the highest quality work, with attention to every detail. Your success is our priority.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card">
+                        <span class="about-icon">⚡</span>
+                        <h3 class="about-title" data-translate="about_speed">Lightning Fast</h3>
+                        <p class="about-text" data-translate="about_, '')) || 0;
+                totalSpent.textContent = `${current + 100}`;
+            }
+        }
+        
+        function selectFreelancer(freelancerId) {
+            selectedFreelancer = freelancerId;
+            
+            const freelancerNames = {
+                alex: 'Alex Thompson',
+                maria: 'Maria Rodriguez', 
+                dmitry: 'Dmitry Petrov',
+                sarah: 'Sarah Johnson'
+            };
+            
+            document.getElementById('chatWithTitle').textContent = `Chat with ${freelancerNames[freelancerId]}`;
+            
+            // Clear messages and add welcome message
+            const messagesContainer = document.getElementById('chatMessages');
+            messagesContainer.innerHTML = `
+                <div class="message received">
+                    Hello! I'm ${freelancerNames[freelancerId]}. How can I help you today?
+                </div>
+            `;
+        }
+        
+        function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            if (!selectedFreelancer) {
+                alert('Please select a freelancer first');
+                return;
+            }
+            
+            // Add user message
+            const messagesContainer = document.getElementById('chatMessages');
+            messagesContainer.innerHTML += `
+                <div class="message sent">
+                    ${message}
+                </div>
+            `;
+            
+            // Clear input
+            input.value = '';
+            
+            // Auto-scroll to bottom
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            
+            // Mock freelancer response
+            setTimeout(() => {
+                messagesContainer.innerHTML += `
+                    <div class="message received">
+                        Thanks for your message! I'll get back to you with a detailed proposal shortly.
+                    </div>
+                `;
+                messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            }, 1500);
+        }
+        
+        function initializeChat() {
+            // Reset chat state
+            selectedFreelancer = null;
+            document.getElementById('chatWithTitle').textContent = translations[currentLanguage]?.select_freelancer || 'Select a freelancer to start chatting';
+            document.getElementById('chatMessages').innerHTML = `
+                <div class="message received">
+                    ${translations[currentLanguage]?.welcome_message || 'Welcome! Please select a freelancer to start your conversation.'}
+                </div>
+            `;
+        }
+        
+        function openChat(freelancerId) {
+            switchTab('chat');
+            setTimeout(() => selectFreelancer(freelancerId), 100);
+        }
+        
+        function editProfile() {
+            if (window.Telegram && window.Telegram.WebApp) {
+                window.Telegram.WebApp.showAlert('Profile editing will be available in a future update.');
+            }
+        }
+        
+        // Handle Enter key in chat input
+        document.addEventListener('DOMContentLoaded', function() {
+            const messageInput = document.getElementById('messageInput');
+            if (messageInput) {
+                messageInput.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        sendMessage();
+                    }
+                });
+            }
+        });
+        
+        // Close modals when clicking outside
+        document.addEventListener('click', function(e) {
+            if (e.target.classList.contains('payment-modal')) {
+                closePaymentModal();
+            }
+        });
+        
+        // Handle back button
+        if (window.Telegram && window.Telegram.WebApp) {
+            window.Telegram.WebApp.onEvent('backButtonClicked', function() {
+                const activeSection = document.querySelector('.section.active');
+                if (activeSection && activeSection.id !== 'home') {
+                    switchTab('home');
+                } else {
+                    window.Telegram.WebApp.close();
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+                                quality_desc">
+                            We deliver only the highest quality work, with attention to every detail. Your success is our priority.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card">
+                        <span class="about-icon">⚡</span>
+                        <h3 class="about-title" data-translate="about_speed">Lightning Fast</h3>
+                        <p class="about-text" data-translate="about_
